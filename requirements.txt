@@ -1,0 +1,6 @@
+flask
+python-docx
+python-pptx
+PyPDF2
+werkzeug
+requests
