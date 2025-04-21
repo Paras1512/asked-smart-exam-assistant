@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background */
+body {
+  background: radial-gradient(circle at top left, #1a1a2e, #0f0c29);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Page Layout */
+.page-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px;
+  gap: 40px;
+}
+
+/* Intro Text */
+.intro-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+}
+
+.intro-text h1,
+.intro-text p {
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+}
+
+.delay-1 { animation-delay: 0.5s; }
+.delay-2 { animation-delay: 1s; }
+
+/* Card */
+.glassy-card {
+  flex: 1;
+  max-width: 600px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border-radius: 25px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7);
+  animation: fadeIn 1.2s ease;
+}
+
+/* Inputs & Buttons */
+.form-control,
+.form-select {
+  background: #111;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #0051ff;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 12px;
+}
+
+.btn-primary:hover {
+  background-color: #003acc;
+}
+
+/* Spinner */
+.spinner {
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  border-top: 5px solid #0051ff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+.hidden {
+  display: none;
+}
+
+/* Floating Icons */
+.background-decor .floating-icon {
+  position: absolute;
+  font-size: 24px;
+  opacity: 0.2;
+  animation: float 6s infinite ease-in-out;
+}
+.background-decor .floating-icon:nth-child(1) {
+  top: 10%;
+  left: 10%;
+}
+.background-decor .floating-icon:nth-child(2) {
+  top: 40%;
+  right: 20%;
+}
+.background-decor .floating-icon:nth-child(3) {
+  bottom: 20%;
+  left: 30%;
+}
+
+/* Answer Box */
+.answer-box {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 16px;
+  animation: fadeIn 1s ease;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
