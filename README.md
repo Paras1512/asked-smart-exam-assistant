@@ -67,8 +67,11 @@ asked-smart-exam-assistant/
 ├── requirements.txt
 └── README.md
 ------
-This Our UI:
+🖥️ This Our UI:
 ![image](https://github.com/user-attachments/assets/d5cd7fdf-762f-42b9-a91b-3ab752eb3dda)
+📤This is the Output:
+![Screenshot 2025-04-21 100009](https://github.com/user-attachments/assets/c5a33c51-39d6-414b-b591-9f9f6d8c765b)
+
 
 📜 License
 This project is licensed under the MIT License.
