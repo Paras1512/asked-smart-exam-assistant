@@ -58,7 +58,7 @@ An intelligent exam assistant that automatically generates answers from your upl
 ---
 📁 Project Structure
 asked-smart-exam-assistant/  
-├── static/  
+├── static/   
 │   ├── css/  
 │   ├── js/  
 ├── templates/  
@@ -73,10 +73,10 @@ asked-smart-exam-assistant/
 ![Screenshot 2025-04-21 100009](https://github.com/user-attachments/assets/c5a33c51-39d6-414b-b591-9f9f6d8c765b)
 --------------
 Made By:
-Jay Dhrangadhariya - KU2407U300
-Paras Panchal - KU2407U344
-Krushnrajsinh Sisodiya - KU2407U322
-Vishwajitsinh Sarvaiya - KU2407U860
+Jay Dhrangadhariya - KU2407U300  
+Paras Panchal - KU2407U344  
+Krushnrajsinh Sisodiya - KU2407U322  
+Vishwajitsinh Sarvaiya - KU2407U860  
 --------------
 
 📜 License
