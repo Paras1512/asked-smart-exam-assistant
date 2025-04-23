@@ -57,15 +57,15 @@ An intelligent exam assistant that automatically generates answers from your upl
 
 ---
 📁 Project Structure
-asked-smart-exam-assistant/
-├── static/
-│   ├── css/
-│   ├── js/
-├── templates/
-│   └── index.html
-├── app.py
-├── requirements.txt
-└── README.md
+asked-smart-exam-assistant/  
+├── static/  
+│   ├── css/  
+│   ├── js/  
+├── templates/  
+│   └── index.html  
+├── app.py  
+├── requirements.txt  
+└── README.md  
 ------
 🖥️ This Our UI:
 ![image](https://github.com/user-attachments/assets/d5cd7fdf-762f-42b9-a91b-3ab752eb3dda)
